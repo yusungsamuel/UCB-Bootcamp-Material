@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Staek House</title>
+    </head>
+
+    <body>
+        <script type="text/javascript">
+        var likeSteak = confirm("Do you like steak?")
+        var birthday = prompt("How old are you?")
+
+        if (likeSteak && birthday >= 21) {
+            document.write("Here's a Steak Sandwich!")
+        }
+
+        else if (likeSteak && birthday < 21) {
+            alert("No sake for you!")
+            document.write("Here's a Steak Sandwich!")
+        }
+
+        else if (!likeSteak && birthday >= 21) {
+            document.write("Here's a Tofu Stir-Fry!")
+        }
+
+        else {
+            alert("No sake for you!")
+            document.write("Here's a Tofu Stir-Fry!")
+        }
+        </script>
+    </body>
+</html>
